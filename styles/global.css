@@ -30,3 +30,13 @@ body {
     font: var(--text);
 }
 
+a {
+    text-decoration: none;
+    color: inherit;      /* cor herdada */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--bran-color);
+}
+
