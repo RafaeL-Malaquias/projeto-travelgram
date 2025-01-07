@@ -1,7 +1,10 @@
 
 
 .about-section{
-    padding-block: 32px; /* Aplica 10px de padding tanto no topo quanto embaixo */
+    /* Aplica 10px de padding tanto no topo quanto embaixo */
+    padding-block: 32px; 
+    font: var(--text-md);
+    
 }
 
 section .container {
@@ -28,7 +31,6 @@ section .container {
 }
 
  #profile p {
-    font: var(--text-md);
     color: var(--text-color-secondary);
     margin-bottom: 16px; 
 }
