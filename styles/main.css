@@ -12,5 +12,13 @@ main img {
     width: 286px;
     height: 286px;
     object-fit: cover;
+    cursor: pointer;
     
+}
+main img:hover {
+
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    filter: contrast(101%) saturate(200%);
+
 }
